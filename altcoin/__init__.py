@@ -45,7 +45,7 @@ __version__ = '0.4.0'
 class LtcMainParams(CoreLtcMainParams):
     MESSAGE_START = b'\xfb\xc0\xb6\xdb'
     DEFAULT_PORT = 9333
-    RPC_PORT = 9332 
+    RPC_PORT = 9332
     DNS_SEEDS = (('litecointools.com','dnsseed.litecointools.com'),
                  ('litecoinpool.org','dnsseed.litecoinpool.org',),
                  ('xurious.com','dnsseed.ltc.xurious.com'),
@@ -54,6 +54,7 @@ class LtcMainParams(CoreLtcMainParams):
     BASE58_PREFIXES = {'PUBKEY_ADDR':48,
                        'SCRIPT_ADDR':50,
                        'SECRET_KEY' :176}
+    BECH32_HRP = 'ltc1'
 
 class LtcTestNetParams(CoreLtcTestNetParams):
     MESSAGE_START = b'\xfc\xc1\xb7\xdc'
