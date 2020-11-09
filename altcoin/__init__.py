@@ -52,7 +52,7 @@ class LtcMainParams(CoreLtcMainParams):
                  ('koin-project.com','dnsseed.koin-project.com'),
                  ('weminemnc.com','dnsseed.weminemnc.com'))
     BASE58_PREFIXES = {'PUBKEY_ADDR':48,
-                       'SCRIPT_ADDR':5,
+                       'SCRIPT_ADDR':50,
                        'SECRET_KEY' :176}
 
 class LtcTestNetParams(CoreLtcTestNetParams):
