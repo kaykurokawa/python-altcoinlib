@@ -54,7 +54,7 @@ class LtcMainParams(CoreLtcMainParams):
     BASE58_PREFIXES = {'PUBKEY_ADDR':48,
                        'SCRIPT_ADDR':50,
                        'SECRET_KEY' :176}
-    BECH32_HRP = 'ltc1'
+    BECH32_HRP = 'ltc'
 
 class LtcTestNetParams(CoreLtcTestNetParams):
     MESSAGE_START = b'\xfc\xc1\xb7\xdc'
