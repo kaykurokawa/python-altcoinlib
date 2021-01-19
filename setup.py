@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 import os
 
-from altcoin import __version__
+from altcoin.version import __version__
 
 here = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(here, 'README')) as f:
